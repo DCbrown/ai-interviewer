@@ -33,12 +33,10 @@ const ChatInputModal: React.FC<ChatInputModalProps> = ({
           />
           <div className="mb-4 text-center text-black">
             {" "}
-            {/* Added text-center */}
             {input ? <strong>You Said: </strong> : ""} {input}
           </div>
           <div className="flex gap-2 justify-center">
             {" "}
-            {/* Added justify-center */}
             <button
               type="submit"
               className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"

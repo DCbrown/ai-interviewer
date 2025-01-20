@@ -24,7 +24,7 @@ const userAuthor = {
 };
 
 const aiAuthor = {
-  username: "Bob The Interviewer",
+  username: "The Interviewer",
   id: 2,
   avatarUrl: "/male1.jpg",
 };
@@ -51,7 +51,7 @@ const Chat: React.FC<ChatProps> = ({ initialText, interviewData }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const initialMessage = {
     author: aiAuthor,
-    text: initialText ?? "Hello, I am Bob the Interviewer. How can I help you?",
+    text: initialText ?? "Hello, I am the Interviewer. How can I help you?",
     type: "text",
     timestamp: +new Date(),
   };

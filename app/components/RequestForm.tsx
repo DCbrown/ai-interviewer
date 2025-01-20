@@ -181,7 +181,6 @@ const RequestForm: React.FC<Props> = ({
         >
           <option value="">Select Interview Type</option>
           <option value="behavioral">Behavioral</option>
-          <option value="leetcode">Leetcode</option>
           <option value="project">Project</option>
         </select>
         {errors.interviewType && (
